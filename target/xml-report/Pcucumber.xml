@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="30.648">
+    <testcase classname="US024 Download Invoice after purchase order" name="Invoice should be downloaded after purchase order" time="30.389">
+        <system-out>
+            <![CDATA[Given Launch browser........................................................passed
+And Navigate to url "HomePageUrl"...........................................passed
+Then Verify that home page is visible successfully..........................passed
+Then waits 2 seconds........................................................passed
+And user adds products to cart..............................................passed
+Then user clicks Cart button................................................passed
+Then user verifies that cart page is displayed..............................passed
+And user clicks Proceed To Checkout.........................................passed
+When user clicks Register Login button......................................passed
+And user enters correct email address and password..........................passed
+Then user fills all details in Signup and create account....................passed
+Then Verify that ACCOUNT CREATED! is visible................................passed
+Then Click Continue button..................................................passed
+And Verify that Logged in as username is visible............................passed
+Then user clicks Cart button................................................passed
+And user clicks Proceed To Checkout button..................................passed
+And user verifies Address Details and Review Your Order.....................passed
+And user enters description in comment text area and click Place Order......passed
+And user enters payment details: Name on Card, Card Number, CVC, Expiration date.passed
+Then user clicks Pay and Confirm Order button...............................passed
+And user verifies success message Your order has been placed successfully!..passed
+When user clicks Download Invoice button and verify invoice is downloaded successfully..passed
+And user clicks Continue button.............................................passed
+And Click Delete Account button.............................................passed
+Then Verify that ACCOUNT DELETED! is visible................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
